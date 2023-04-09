@@ -65,7 +65,7 @@ namespace GithubActionsLab
 
         public static double Add(string x, string y)
         {
-            return double.Parse(x) + double.Parse(y);
+            return double.Parse(x) - double.Parse(y);
         }
 
         public static double Subtract(string x, string y)
